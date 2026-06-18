@@ -18,7 +18,6 @@ function calculateBmi () {
 
     let bmi = (weight/(height * height) * 703)
 
-    console.log(bmi)
-
+    
 
 }
