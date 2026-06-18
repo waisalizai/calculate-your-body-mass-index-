@@ -18,7 +18,7 @@ function calculateBmi () {
     let bmi = (weight/(height * height) * 703)
 
     document.getElementById ("heading").innerHTML = 'Your BMI is :'
-    document.getElementById ('bmi-output').innerHTML = bmi
+    document.getElementById ('bmi-output').innerHTML = bmi.toFixed (1)
 
     if (bmi <= 24.9) {
         document.getElementById ('message').innerHTML = 'You are underweight'
