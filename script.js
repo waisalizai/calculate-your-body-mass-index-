@@ -29,10 +29,11 @@ function calculateBmi () {
         } else {
              document.getElementById ('message').innerHTML = 'You are overweight'
         }
-         
-
-
 
 }
 
+function reload () {
+window.location.reload()
+
+}
 
