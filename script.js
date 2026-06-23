@@ -17,9 +17,7 @@ function calculateBmi() {
         document.getElementById('message').innerHTML = 'You are a healthy weight';
     } else if (bmi >= 25 && bmi <= 29.9) {
         document.getElementById('message').innerHTML = 'You are overweight';
-    } else {
-        document.getElementById('message').innerHTML = 'You are obese';
-    }
+    } 
 }
 
 function reload() {
