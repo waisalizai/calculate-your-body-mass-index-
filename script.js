@@ -3,8 +3,8 @@
 
 function calculateBmi() {
 
-    let weight = (document.getElementById('weight').value);
-    let height = (document.getElementById('height').value);
+    let weight = Number (document.getElementById('weight').value);
+    let height = Number (document.getElementById('height').value);
 
     let bmi = weight / ((height / 100) * (height / 100));
 
@@ -23,6 +23,13 @@ function calculateBmi() {
 }
 
 function reload() {
-    
+
+    document.getElementById('weight').value = "";
+    document.getElementById('height').value = "";
+
+    document.getElementById('heading').innerHTML = "";
+    document.getElementById('bmi-output').innerHTML = "";
+    document.getElementById('message').innerHTML = "";
+
 }
 
