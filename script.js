@@ -10,6 +10,9 @@ function calculateBmi() {
 
     document.getElementById("heading").innerHTML = 'Your BMI is:';
     document.getElementById('bmi-output').innerHTML = bmi.toFixed(1);
+    let unit = document.getElementById ("unit").value;
+if (unit === "lbs") {
+    weight = weight * 0.453592;  
 
     if (bmi < 18.5) {
         document.getElementById('message').innerHTML = 'underweight';
@@ -34,7 +37,5 @@ function reload() {
 
 }
 
-let unit = document.getElementById ("unit").value;
-if (unit === "lbs") {
-    weight = weight * 0.453592;  
+
 }
