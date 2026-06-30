@@ -3,7 +3,6 @@ function calculateBmi() {
     let weight = Number(document.getElementById('weight').value);
     let height = Number(document.getElementById('height').value);
     let unit = document.getElementById("unit").value;
-
     // Convert BEFORE calculating BMI
     if (unit === "lbs") {
         weight = weight * 0.453592;
