@@ -8,6 +8,10 @@ function calculateBmi() {
     if (unit === "lbs") {
         weight = weight * 0.453592;
     }
+    // Convert height (inches → cm)
+    if (heightUnit === "in") {
+        height = height * 2.54;
+    }
 
     let bmi = weight / ((height / 100) * (height / 100));
 
