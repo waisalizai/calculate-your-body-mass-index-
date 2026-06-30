@@ -31,5 +31,10 @@ function reload() {
     document.getElementById('bmi-output').innerHTML = "";
     document.getElementById('message').innerHTML = "";
 
+
 }
 
+let unit = document.getElementById ("unit").value;
+if (unit === "lbs") {
+    weight = weight * 0.453592;  
+}
