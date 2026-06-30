@@ -23,22 +23,32 @@
 
     <h2> BMI Calculator </h2>
 
-    <label for="weight">Weight (kg) </label>
-    <input id="weight" type="number"> <br/>
-    <label for="height"> Height (cm) </label>
-    <input id="height" type="number"> <br/>
-    <button onclick="calculateBmi ()"> Submit </Button>
-    <button onclick="reload()"> Clear </button>
-    <select id = "unit">  
-    <option value="kg"> Kilograms </option>
-    <option value="lbs"> Pounds </option>
-    </select>    
+    <label for="weight">Weight</label>
+<input id="weight" type="number">
 
-    <h4 id="heading"> </h4>
-    <p id="bmi-output"> </p>
-    <p id="message"> </p>
+<select id="unit">
+    <option value="kg">Kilograms</option>
+    <option value="lbs">Pounds</option>
+</select>
+<br/>
 
-   <script src="script.js"></script>
+<label for="height">Height</label>
+<input id="height" type="number">
+
+<select id="height-unit">
+    <option value="cm">Centimeters</option>
+    <option value="in">Inches</option>
+</select>
+<br/>
+
+<button onclick="calculateBmi()">Submit</button>
+<button onclick="reload()">Clear</button>
+
+<h4 id="heading"></h4>
+<p id="bmi-output"></p>
+<p id="message"></p>
+
+<script src="script.js"></script>
     
 </body>
 </html>
