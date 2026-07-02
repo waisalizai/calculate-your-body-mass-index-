@@ -2,19 +2,7 @@ function calculateBmi() {
 
     let weight = Number(document.getElementById('weight').value);
     let height = Number(document.getElementById('height').value);
-    let unit = document.getElementById("unit").value;
-    let heightUnit = document.getElementById("height-Unit").value; // FIXED
-
-    // Convert weight (lbs → kg)
-    if (unit === "lbs") {
-        weight = weight * 0.453592;
-    }
-
-    // Convert height (inches → cm)
-    if (heightUnit === "in") {
-        height = height * 2.54;
-    }
-
+    
     let bmi = weight / ((height / 100) * (height / 100));
 
     document.getElementById("heading").innerHTML = 'Your BMI is:';
