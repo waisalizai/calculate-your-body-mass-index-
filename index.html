@@ -10,10 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+NO:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css"/>
 
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.25.19/dist/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.25.19/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.25.19/dist/js/uikit-icons.min.js"></script>
 
 </head>
 <body>
 
+    <div class="uk-container uk-width-3-5@m uk-margin-top">
     <h1> Calculate your body mass index (BMI) for adults </h1>
  
     <p> Use this calculator to check the BMI of an adult aged 18 and over. However, you should not use it to diagnose any symptoms. If you are worried about your weight, contact your local pharmacist or GP surgery. </p>
@@ -25,19 +31,19 @@
     <h2> BMI Calculator </h2>
 
     <label for="weight">Weight</label>
-<input id="weight" type="number"> <br>
+    <input id="weight" type="number"> <br>
 
-<label for="height">Height</label>
-<input id="height" type="number"> <br>
+    <label for="height">Height</label>
+    <input id="height" type="number"> <br>
 
-<button onclick="calculateBmi()">Submit</button>
-<button onclick="reload()">Clear</button>
+    <button onclick="calculateBmi()">Submit</button>
+    <button onclick="reload()">Clear</button>
 
-<h4 id="heading"></h4>
-<p id="bmi-output"></p>
-<p id="message"></p>
+    <h4 id="heading"></h4>
+    <p id="bmi-output"></p>
+    <p id="message"></p>
 
-<script src="script.js"></script>
-    
+    <script src="script.js"></script>
+</div>
 </body>
 </html>
