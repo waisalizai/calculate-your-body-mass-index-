@@ -28,3 +28,5 @@ function clearFields() {
     document.getElementById('message').innerHTML = '';
     document.getElementById('heading').innerHTML = '';
 }
+
+
