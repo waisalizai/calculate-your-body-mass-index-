@@ -1,1 +1,2 @@
-This is a project to create BMI calculator 
+ BMI calculator 
+https://waisalizai.github.io/calculate-your-body-mass-index-/ 
