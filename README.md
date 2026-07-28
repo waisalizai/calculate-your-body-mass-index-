@@ -20,7 +20,7 @@ Simple and responsive design using UIkit
 
 ## Technologies Used
 
-HTML5
+HTML
 
 JavaScript
 
