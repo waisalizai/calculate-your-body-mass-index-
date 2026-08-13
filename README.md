@@ -4,7 +4,7 @@ A simple web-based Body Mass Index (BMI) calculator built using HTML, CSS, and J
 
 ## About the Project
 
-This project enables users to calculate their BMI by entering their weight (in kilograms) and height (in centimetres). It then displays the BMI value along with a category such as underweight, healthy weight, overweight, or obese.
+It enables users to calculate their BMI by entering their weight (in kilograms) and height (in centimetres). It then displays the BMI value along with a category such as underweight, healthy weight, overweight, or obese.
 
 ## Features
 
